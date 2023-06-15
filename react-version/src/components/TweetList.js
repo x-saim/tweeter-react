@@ -1,7 +1,7 @@
 import React from 'react'; //optional
 import Tweet from './Tweet.js'
 
-function TweetList(){
+function TweetList() {
 
   return (
     <section className="tweets">

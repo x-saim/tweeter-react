@@ -9,13 +9,13 @@ function App() {
   return (
     <div className="App">
 
-        <Navigation />
-        <Profile />
+      <Navigation />
+      <Profile />
       <main className="container">
         <TweetForm />
         <TweetList />
       </main>
-       
+
     </div>
   );
 }

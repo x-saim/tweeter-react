@@ -4,16 +4,16 @@ function Navigation() {
   return (
     <nav>
 
-    <span className="nav--text">tweeter</span>
+      <span className="nav--text">tweeter</span>
 
-    <div className="btn btn--scroll">
-      <div className="btn__text btn--borderless" title="Compose Tweet">
-        <span className="btn--bold">Write</span> a new tweet
-        <br/>
-        <i className="btn__icon fas fa-angle-double-down"></i>
+      <div className="btn btn--scroll">
+        <div className="btn__text btn--borderless" title="Compose Tweet">
+          <span className="btn--bold">Write</span> a new tweet
+          <br />
+          <i className="btn__icon fas fa-angle-double-down"></i>
+        </div>
       </div>
-    </div>
-  </nav>);
+    </nav>);
 }
 
 export default Navigation;
